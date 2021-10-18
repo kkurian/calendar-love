@@ -1,9 +1,11 @@
 # Calendar Love 🗓 ❤️
 
-Got muliple Google calendar accounts? Wish they would they all show your
-actual availability regardless of which account has a scheduled event?
+Got muliple Google calendar accounts?
 
-** Here's some calendar love for you: **
+Wish they would they all show your actual availability regardless of which
+account has a scheduled event?
+
+### Here's some calendar love for you:
 
 This Google Apps script looks at calendars in your other Google accounts and
 puts blocks in your current account's calendar where your other accounts have
