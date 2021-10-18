@@ -12,7 +12,9 @@ puts blocks in your current account's calendar where your other accounts have
 events.
 
 Additionally, this script removes blocks from your current account's calendar
-when your other calendars no longer have events.
+when your other calendars no longer have events. (At least one account must
+be able to see the full event details of the other, not just "busy" events, for
+this part to work.)
 
 Now your current calendar always shows your availability, taking into account
 all of the events in your other calendars.
