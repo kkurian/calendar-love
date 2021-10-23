@@ -1,6 +1,6 @@
 # Calendar Love 🗓 ❤️
 
-Got muliple Google calendar accounts? Wish they would they all show your
+Got multiple Google calendar accounts? Wish they would they all show your
 actual availability regardless of which account has a scheduled event?
 
 ** Here's some calendar love for you: **
