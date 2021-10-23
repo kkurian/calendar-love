@@ -31,7 +31,7 @@ SOFTWARE.
 
 /* 
 
-Got muliple Google calendar accounts? Wish they would they all show your
+Got multiple Google calendar accounts? Wish they would they all show your
 actual availability regardless of which account has a scheduled event?
 
 Here's some calendar love for you:
@@ -149,19 +149,18 @@ function createBlocksInLocalCalendarFrom(remoteCalendar) {
         event => event.getTitle() != BLOCKED_EVENT_TITLE);
 
     for (const remoteEvent of remoteEvents) {
-        if (!remoteEvent.isAllDayEvent() && !localBlockExistsFor(remoteEvent, localEvents)) {
+        if (!remoteEvent.isAllDayEvent() && !localEventExistsFor(remoteEvent, localEvents)) {
             createLocalBlockFor(remoteEvent, localCalendar);
         }
     }
 }
 
-function localBlockExistsFor(remoteEvent, localEvents) {
+function localEventExistsFor(remoteEvent, localEvents) {
     const remoteEventStartTime = remoteEvent.getStartTime().getTime();
     const remoteEventEndTime = remoteEvent.getEndTime().getTime();
 
     for (const localEvent of localEvents) {
-        if (localEvent.getTitle() == BLOCKED_EVENT_TITLE &&
-            localEvent.getStartTime().getTime() == remoteEventStartTime &&
+        if (localEvent.getStartTime().getTime() == remoteEventStartTime &&
             localEvent.getEndTime().getTime() == remoteEventEndTime
         ) {
             return true;
