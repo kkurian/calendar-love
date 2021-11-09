@@ -3,9 +3,6 @@
 Got multiple Google calendar accounts? Wish they would they all show your
 actual availability regardless of which account has a scheduled event?
 
-Wish they would they all show your actual availability regardless of which
-account has a scheduled event?
-
 ### Here's some calendar love for you:
 
 This Google Apps script looks at calendars in your other Google accounts and
